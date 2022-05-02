@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Bangers&display=swap');
 
+
+
 header {
   background-color: #EBD4A2;
   margin-bottom: 40px;
@@ -18,6 +20,10 @@ header h1 {
 header nav{
 	display: flex;
 	justify-content: center;
+}
+
+header nav ul :hover {
+  color: rgb(255, 0, 0);
 }
 
 header nav ul{
