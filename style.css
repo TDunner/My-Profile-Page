@@ -42,6 +42,7 @@ header nav ul li a{
 	margin-right: 10px;
 }
 
+
 /*<!-- home section  -->*/
 
 main h2 {
@@ -93,9 +94,11 @@ img.rounded {
   border-radius: 50%;
 }
 
+/*<!-- elements for both paragraphs  -->*/
+
 .about-me-and-home-paragraph{
   font-family: 'Architects Daughter', cursive;
-	font-family: 20px;
+  font-size: 20px;
   color: #123456;
 }
 
@@ -103,6 +106,8 @@ img.rounded {
   font-family: 'Architects Daughter', cursive;
   color: #123456;
 }
+
+/*<!-- form elements  -->*/
 
 form input, form textarea{
   width: 100%;
@@ -113,19 +118,19 @@ form input, form textarea{
 	padding-right: 40px;
 }
 
+/*<!-- margin element for arcticle for about me section -->*/
+
 .margin-under {
 	margin-bottom: 30px;
 }
+
+/*<!-- margin element for arcticle for contact section -->*/
+
 .margin-above {
 	margin-top: 30px;
 }
 
-@media all and (min-width: 300px) {
-	.portfolio {
-           margin-top: 2em;
-           margin-right: .5em;
-	}
-}
+/*<!-- element settings for items listed below -->*/
 
 @media all and (min-width: 600px) {
    article{
@@ -153,6 +158,8 @@ form input, form textarea{
 	margin: 15px 0;
   } 
 }
+
+/*<!-- sizing for map elements  -->*/
 
 .responsive-iframe{
   height: 300px;
